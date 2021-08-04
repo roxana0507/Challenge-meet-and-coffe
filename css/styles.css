@@ -1,0 +1,57 @@
+body{
+    color: #000F08;
+    text-align: center;
+    margin: 0%;
+}
+/*Selector de tipo descendente body * significa colocar a todo */
+body * {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.dark{
+    background-color:#000F08 ;
+    color: white;
+}
+.dark a{
+    color: white;
+    text-decoration: none;
+}
+.sweet-brown{
+    text-align: left;
+    background-color:#a4452c ;
+    color: white;
+    padding: 40px;
+    white-space: nowrap;
+}
+
+.talk-text{
+    margin: 0 auto;
+    width: 70%;
+    vertical-align: middle;
+}
+.next-talk{
+    width: 25%;
+    vertical-align: middle;
+    white-space: normal;
+}
+.hero-section{
+    text-align: right;
+    background-image:url("../assets/img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 5px 3px 5px #707070;
+    padding: 50px 50px 100px 50px;
+    border: ;
+    margin: ;
+}
+.talk-text, .event{
+    display: inline-block;
+}
+section, footer{
+    margin-top: 75px;
+}
+footer{
+    padding: 50px;
+}
