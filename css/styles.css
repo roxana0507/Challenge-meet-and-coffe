@@ -2,6 +2,7 @@ body{
     color: #000F08;
     text-align: center;
     margin: 0%;
+    font-family: 'Open Sans', sans-serif;
 }
 /*Selector de tipo descendente body * significa colocar a todo */
 body * {
@@ -9,7 +10,11 @@ body * {
     padding: 0%;
     border: 0%;
 }
-.dark{
+h2{
+font: normal normal bold 25px/51px Open Sans;
+letter-spacing: 0.9px;
+}
+.dark {
     background-color:#000F08 ;
     color: white;
 }
@@ -17,23 +22,16 @@ body * {
     color: white;
     text-decoration: none;
 }
-.sweet-brown{
+nav{
+    padding: 10px;
     text-align: left;
-    background-color:#a4452c ;
-    color: white;
-    padding: 40px;
-    white-space: nowrap;
 }
-
-.talk-text{
-    margin: 0 auto;
-    width: 70%;
-    vertical-align: middle;
+li, i{
+    padding: 1%;
+    display: inline-block;
 }
-.next-talk{
-    width: 25%;
-    vertical-align: middle;
-    white-space: normal;
+header, h1{
+    font-family: 'Open Sans', sans-serif;
 }
 .hero-section{
     text-align: right;
@@ -42,16 +40,73 @@ body * {
     background-size: cover;
     color: white;
     text-shadow: 5px 3px 5px #707070;
-    padding: 50px 50px 100px 50px;
-    border: ;
-    margin: ;
+    padding: 50px 50px 250px 50px;
 }
-.talk-text, .event{
+.event{
     display: inline-block;
+    padding: 10px;
+    border: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a4452c;
+    border: #a4452c solid 1px;
 }
+.event img:hover {
+    /* filter: grayscale(80%); */
+   filter: sepia(100%);
+}
+
 section, footer{
     margin-top: 75px;
 }
 footer{
-    padding: 50px;
+    padding: 10px;
+}
+.reservar{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: #a4452c solid 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: rgba(233, 233, 34, 0.479);
+    padding: 1%;
+}
+
+.sweet-brown{
+    text-align: left;
+    color: white;
+    background-color: #a4452c;
+    padding: 40px 90px 40px 90px;
+}
+
+.talk-text{
+    display: inline-block;
+    text-align: left;
+    border-left: 5%;
+    font-size: 0.6em; 
+    vertical-align: middle;
+    padding-left: 40px;
+    
+}
+.centrado{
+    display: inline-block;
+    padding: 1%;
+}
+.imagen{
+    display: inline-block;
+}
+.imagen{
+    transform: rotate(-5deg);
+}
+/*
+.imagen:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}/*
+
+.imagen:hover {
+    filter: grayscale(80%);
 }
