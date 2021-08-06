@@ -42,6 +42,16 @@ header, h1{
     text-shadow: 5px 3px 5px #707070;
     padding: 50px 50px 250px 50px;
 }
+.imgaddress{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    border: 10px solid;
+    border-image: linear-gradient(45deg, rgb(99, 97, 90), deeppink) 1;
+    clip-path: inset(0 round 10px);
+    filter: hue-rotate(405deg)
+}
+
 .event{
     display: inline-block;
     padding: 10px;
@@ -73,7 +83,7 @@ footer{
     padding: 1%;
 }
 
-.sweet-brown{
+.sweet-brown {
     text-align: left;
     color: white;
     background-color: #a4452c;
@@ -99,6 +109,42 @@ footer{
 .imagen{
     transform: rotate(-5deg);
 }
+.description{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    margin: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2.5;
+    font-size: 25px;
+}
+
+.event1 img{
+    align-content: left;
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    width: 75%;
+    padding: 20px 0px 20px;
+}
+.home{
+    text-align: left;
+    margin: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.description h1{
+    text-align: left;
+    size: 25px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+
 /*
 .imagen:hover {
     -webkit-transform: rotateY(180deg);
