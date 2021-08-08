@@ -201,7 +201,14 @@ dt{
     padding-left: 5%;
     padding-right: 5%;
     font-weight:bold;
-    font-variant: small-caps;
+    font-size: 45px;
+}
+dl img{
+    float: right;
+    margin:15px;
+    width: 450px;
+    border: #002973 solid 5px;
+
 }
 li{
     list-style:circle;
